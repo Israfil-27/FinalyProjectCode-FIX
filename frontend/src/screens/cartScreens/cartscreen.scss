@@ -1,0 +1,29 @@
+.cart-shoping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem;
+  background-color: rgb(38, 185, 38);
+  color: white;
+}
+.my-cart{
+    margin-bottom: 20px;
+    padding: 1rem 0;
+    letter-spacing: 1.5px;
+}
+.basket-Button{
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span{
+    color: black;
+  }
+}
+.basket-Button:hover{
+  font-weight: 600;
+}
+.basket-price{
+  font-size: 1.3rem;
+  font-weight: 500;
+}

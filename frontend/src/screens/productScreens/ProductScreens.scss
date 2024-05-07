@@ -1,0 +1,94 @@
+.productScreen {
+  margin-top: 50px;
+  a {
+    display: inline-block;
+    margin: 1rem 0;
+    .Button {
+      padding: 1.5rem;
+      background-color: rgb(240, 240, 240);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        color: black;
+      }
+    }
+  }
+}
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card-product-screen {
+  width: 300px;
+}
+.add-to-card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  span {
+    color: black;
+  }
+}
+.form {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.qty {
+  display: flex;
+  align-items: center;
+  Button {
+    font-size: 25px;
+    font-weight: 700;
+    width: 31px;
+    height: 31px;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    padding: 0 0.5rem;
+    height: 31px;
+    width: 45px;
+    border: none;
+    font-size: 1.3rem;
+  }
+}
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; // İstenilen genişliği ayarlayabilirsiniz
+  margin: 0 auto; // Ortalama
+}
+
+.custom-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.custom-form .rating-select,
+.custom-form .comment-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-form .submit-button button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-form .submit-button button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

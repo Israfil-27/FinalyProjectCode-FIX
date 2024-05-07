@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+    .menu-item {
+      margin-right: 20px;
+
+      .nav-link {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+          color: #1890ff;
+        }
+      }
+    }
+  }
+
+  .badge {
+    margin-left: 5px;
+    
+    span {
+      background-color: #fff;
+      width: 100%;
+      color: rgb(0, 0, 0);
+    }
+  }
+
+
+}
+.nav-link-dropdown {
+  color: black !important;
+}

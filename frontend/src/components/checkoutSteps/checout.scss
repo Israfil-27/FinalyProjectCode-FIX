@@ -1,0 +1,43 @@
+.navbar-Checkout-Steps {
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: none;
+  border-radius: 5px;
+  border: 0.1px solid rgb(152, 152, 152);
+  display: flex;
+  justify-content: space-evenly;
+
+  .ant-menu-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .ant-menu-item {
+      flex-grow: 1;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+}
+
+.Checkout-Steps-Link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.Checkout-Steps-Link a {
+  color: #000000 !important;
+}
+
+.Checkout-Steps-Link a:hover {
+  color: #1890ff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .Checkout-Steps-Link {
+    font-size: 14px;
+  }
+}

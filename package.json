@@ -1,0 +1,51 @@
+{
+  "name": "front-backend",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "E commerce App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "server": "nodemon Backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server \" \"npm run client\"",
+    "data:import": "node ./Backend/seeder.js",
+    "data:destroy": "node Backend/seeder.js -d",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "@paypal/react-paypal-js": "^8.3.0",
+    "@reduxjs/toolkit": "^2.2.2",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/react-redux": "^7.1.33",
+    "@types/redux": "^3.6.0",
+    "antd": "^5.17.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^8.2.3",
+    "multer": "^1.4.5-lts.1",
+    "react-bootstrap": "^2.10.2",
+    "react-icons": "^5.2.0",
+    "react-toastify": "^10.0.5",
+    "redux": "^5.0.1",
+    "universal-cookie": "^7.1.4",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "sass": "^1.76.0"
+  },
+  "keywords": []
+}
